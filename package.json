@@ -1,0 +1,33 @@
+{
+  "name": "pestube",
+  "version": "1.0.0",
+  "description": "cloning Youtube with Vanilla javascript and node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PESKIM/PESTUBE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PESKIM/PESTUBE/issues"
+  },
+  "homepage": "https://github.com/PESKIM/PESTUBE#readme",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "morgan": "^1.9.1",
+    "pus": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  }
+}
